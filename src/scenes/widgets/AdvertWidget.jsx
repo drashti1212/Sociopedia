@@ -21,7 +21,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="${config.SERVER_URL}/assets/info4.jpeg"
+        src="https://social-media-hiix669o4-drashti1212.vercel.app/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>

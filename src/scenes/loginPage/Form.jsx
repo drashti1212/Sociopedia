@@ -80,6 +80,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
+    console.log('hello')
     const loggedInResponse = await fetch(`https://social-media-hiix669o4-drashti1212.vercel.app/auth/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

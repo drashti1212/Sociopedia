@@ -9,7 +9,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://social-media-hiix669o4-drashti1212.vercel.app/assets/${image}`}
+        src={`https://social-media-app-sepu.onrender.com/assets/${image}`}
       />
     </Box>
   );

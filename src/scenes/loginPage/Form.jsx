@@ -65,7 +65,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      `https://social-media-hiix669o4-drashti1212.vercel.app/auth/register`,
+      `https://social-media-app-sepu.onrender.com/auth/register`,
       {
         method: "POST",
         body: formData,
@@ -81,7 +81,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     console.log('hello')
-    const loggedInResponse = await fetch(`https://social-media-hiix669o4-drashti1212.vercel.app/auth/login`, {
+    const loggedInResponse = await fetch(`https://social-media-app-sepu.onrender.com/auth/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

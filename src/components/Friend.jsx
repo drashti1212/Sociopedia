@@ -25,7 +25,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://social-media-hiix669o4-drashti1212.vercel.app/${_id}/${friendId}`,
+      `https://social-media-app-sepu.onrender.com/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
